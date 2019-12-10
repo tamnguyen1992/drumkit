@@ -4,7 +4,10 @@ const data = [
 
   { id: 'Tom Tom', letter: 'A', src: 'http://www.denhaku.com/r_box/sr16/sr16tom/loelectm.wav' },
   { id: 'Bass', letter: 'S', src: 'http://billor.chsh.chc.edu.tw/sound/bass4.wav' },
-  { id: 'High Hat', letter: 'D', src: 'http://www.denhaku.com/r_box/tr707/closed.wav' }
+  { id: 'High Hat', letter: 'D', src: 'http://www.denhaku.com/r_box/tr707/closed.wav' },
+  { id: 'Cym Bal', letter: 'F', src: 'https://sampleswap.org/samples-ghost/DRUMS%20(FULL%20KITS)/DRUM%20MACHINES/606%20Basic/155[kb]606-cymbal6.wav.mp3' },
+  { id: 'Snare', letter: 'G', src: 'https://sampleswap.org/samples-ghost/DRUMS%20(FULL%20KITS)/DRUM%20MACHINES/606%20Basic/40[kb]606-snare2.wav.mp3' },
+  { id: 'Tom', letter: 'H', src: 'https://sampleswap.org/samples-ghost/DRUMS%20(FULL%20KITS)/DRUM%20MACHINES/606%20Basic/68[kb]606-tom4.wav.mp3' }
 ]
 
 class DrumPad extends React.Component {
